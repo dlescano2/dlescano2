@@ -1,0 +1,198 @@
+@keyframes latido {
+    from {transform: none; }
+    50% {transform: scale(1.3); }
+    to {transform: none; }
+}
+html {
+    scroll-behavior: smooth;
+}
+* {
+    font-family: "Montserrat", helvetica, sans-serif;
+}
+.page {
+    display: grid;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container {
+    display: grid;
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+/* ESTO ES EL MENU */
+nav {
+    text-align: center;
+    font-size: 13px;
+    display: block;
+}
+nav ul {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    padding: 20px;
+}
+nav ul li a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* ESTO ES EL CONTENIDO */
+.title {
+    text-align: center;
+}
+.title img {
+    max-width: 200px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 100px rgba(0, 255, 229, 0.15);
+}
+.title h1, h2 {
+    font-weight: 600;
+    margin: 0;
+    padding: 5px;
+}
+
+/* ESTA ES LA FLECHA */
+#darr {
+    font-size: 32px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 0vh;
+    animation: latido 1s infinite;
+}
+#darr a {
+    text-decoration: none;
+}
+.space {
+    height: 60px;
+}
+
+/* MODIFICANDO
+.header {
+    height: 100%;
+}
+*/
+
+/* PÁGINA DE PROYECTOS */
+.description {
+    float: left;
+}
+.description img {
+    max-width: 30%;
+    float: left;
+    padding: 20px;
+}
+.subtitles {
+    text-align: center;
+}
+.logos-rrss img {
+    width: 30px;
+    padding: 5px;
+    border-radius: 25%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 992px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
+  
+@media (max-width: 768px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+}
+.project {
+    display: grid;
+    place-content: center;
+    margin: 20px;
+}
+.project img {
+    max-width: 100%;
+    display: block;
+}
+.project-title h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0 0 0;
+}
+.project-title h3 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* PÁGINA DE CONTACTO */
+.contacto {
+    display: flex;
+    justify-content: center;
+}
+.contacto h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.input-nombre {
+    float:left;
+    margin-right: 15px;
+}
+.input-apellido {
+    float: left;
+    margin-bottom: 15px;
+}
+.required {
+    color: rgb(212, 3, 3);
+    font-weight: 700;
+}
+.label-princ {
+    font-weight: 700;
+}
+.label-sec {
+    font-size: 13px;
+}
+#nombre {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 25px;
+    width: 300px;
+}
+#apellido {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 25px;
+    width: 300px;
+}
+#correo {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 25px;
+    width: 620px;
+}
+#mensaje {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 100px;
+    width: 620px;
+}
+form button {
+    padding: 5px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* ESTO ES PARTE DEL FOOTER */
+footer {
+    margin-top: 50px;
+    width:100%;
+    text-align: center;
+    font-size: 12px;
+ }

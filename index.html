@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Diego Lescano - Diseñador Gráfico/Web</title>
+</head>
+
+<body>
+    <div class="page">
+        <div class="container">
+            <div class="title">
+                <img src="images/foto.jpeg" alt="Foto de Diego Lescano">
+                <h1>DIEGO LESCANO</h1>
+                <h2>Diseñador Gráfico/Web</h2>
+                <nav class="main-menu">
+                    <ul>
+                        <li><a href="#sobre_mi">SOBRE MI</a></li>
+                        <li><a href="#proyectos">PROYECTOS</a></li>
+                        <li><a href="#contacto">CONTACTO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="darr">
+            <a href="#sobre_mi">&darr;</a>
+        </div>
+        <section>
+            <div id="sobre_mi" class="header">
+                <div class="space"></div>
+                <h2 class="subtitles">Sobre mi</h2>
+                <div class="description">
+                    <img src="images/person-coding.jpg" alt="Persona codificando">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt aperiam adipisci ratione animi
+                        ab
+                        eius. Natus laborum voluptatum corrupti sed quos illum magnam praesentium deserunt eaque
+                        perferendis, possimus ipsam consectetur?</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga reiciendis labore quasi vel
+                        blanditiis nulla aut, consectetur praesentium, dicta tenetur eos enim. Voluptas laboriosam
+                        doloribus numquam repellat, laudantium eligendi optio.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga alias natus placeat adipisci,
+                        tenetur odio nemo delectus officiis! Veritatis quidem cumque esse consequuntur maxime enim ex
+                        qui iste. Laborum, magni!</p>
+                    <div class="logos-rrss">
+                        <a href="https://www.linkedin.com/in/diegolescano/" target="_blank"><img src="images/LinkedIn_logo_initials.png" alt="Logo LinkedIn"></a>
+                        <a href="https://www.instagram.com/dlescano2/" target="_blank"><img src="images/Instagram_icon-icons.com_66804.png" alt="Logo Instagram"></a>
+                        <a href="https://www.facebook.com/diego.lescano.7731" target="_blank"><img src="images/facebook-logo-2-1.png" alt="Logo Facebook"></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="proyectos" class="header">
+                <div class="space"></div>
+                <h2 class="subtitles">Proyectos</h2>
+                <div class="grid">
+                    <div class="project">
+                        <a><img src="images/Fondo-Delta-Colchones.jpg" alt="Proyecto Delta Colchones y Muebles"></a>
+                        <div class="project-title">
+                            <a><h2>Delta Colchones y Muebles</h2></a>
+                            <a><h3>Diseño Web, Wordpress, E-commerce</h3></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <a><img src="images/Fondo-Cabanas-La-Pedrera.jpg" alt="Proyecto Delta Colchones y Muebles"></a>
+                        <div class="project-title">
+                            <a><h2>Cabañas La Pedrera</h2></a>
+                            <a><h3>Diseño Web, Wordpress</h3></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <a><img src="images/Fondo-Jaminton Fotografias.jpg" alt="Proyecto Delta Colchones y Muebles"></a>
+                        <div class="project-title">
+                            <a><h2>Jaminton Fotografías</h2></a>
+                            <a><h3>Diseño Web, Wordpress</h3></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contacto" class="header">
+                <div class="space"></div>
+                <h2 class="subtitles">Contacto</h2>
+                <div class="contacto"><br>
+
+                    <form action="">
+                        <div>
+                            <label class="label-princ">Nombre: <span class="required">*</span></label><br>
+                            <div class="input-nombre">
+                                <input type="text" id="nombre" name="nombre" required><br>
+                                <label class="label-sec">Nombre</label>
+                            </div>
+                            <div class="input-apellido">
+                                <input type="text" id="apellido" name="apellido" required><br>
+                                <label class="label-sec">Apellido</label>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label class="label-princ">Correo electrónico: <span class="required">*</span></label><br>
+                            <div class="input-correo">
+                                <input type="email" id="correo" name="correo" required>
+                            </div>
+                        </div>
+                        <br>
+                        <div>
+                            <label class="label-princ">Comentario o mensaje: <span class="required">*</span></label><br>
+                            <div class="input-mensaje">
+                                <textarea name="mensaje" id="mensaje" cols="50" required></textarea>
+                            </div>
+                        </div>
+                        <br>
+                        <button>Enviar</button>
+                        
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <hr>
+        <p>Sitio web creado por Diego Lescano en 2023 con HTML y CSS</p>
+    </footer>
+   
+</body>
+
+</html>
