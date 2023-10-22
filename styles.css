@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #131313;
+    color: #f8f8f8;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-menu {
+    background-color: #131313;
+}
+.main-menu nav {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.menu {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu li {
+    list-style: none;
+}
+a {
+    padding: 5px;
+    text-decoration: none;
+    color: #f8f8f8;
+}
+.main-image {
+    border-radius: 100%;
+    max-width: 350px;
+}
+.container-main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.container-home {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.home h1 {
+    font-size: 3em;
+    margin: 10px;
+}
+.home h2 {
+    font-size: 1em;
+    font-weight: 400;
+}
+.home span {
+    color: #61b9a1;
+}
+.about-me {
+    margin: 20px;
+}
+hr {
+    height: 1px;
+    border: none;
+    background-color: #61b9a1;
+}
+.spot {
+    font-size: 1.4em;
+    color: #61b9a1;
+}
+.subtitle {
+    display: flex;
+}
+.subtitle h2 {
+    margin: 0;
+}
+.personal {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 120px;
+}
+@media (max-width: 768px) {
+    .personal {
+      flex-wrap: wrap;
+    }
+}
+.description {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5%;
+}
+.container-icons {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon_img {
+    font-size: 40px;
+    opacity: 0.5;
+    text-align: center;
+}
+.container-icons h4 {
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center;
+    width: 60px;
+}
+.skills h3 {
+    color: #61b9a1;
+}
+.subtitle h2 {
+    font-size: 3em;
+}
+.btn {
+    color:#f8f8f8;
+    background-color: #61b9a1;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 14px;
+}
