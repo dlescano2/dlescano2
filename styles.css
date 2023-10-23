@@ -54,7 +54,7 @@ a {
 .home span {
     color: #61b9a1;
 }
-.about-me {
+.content {
     margin: 20px;
 }
 hr {
@@ -72,24 +72,27 @@ hr {
 .subtitle h2 {
     margin: 0;
 }
-.personal {
+.container-two-columns {
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 120px;
+    gap: 100px;
+}
+.container-two-columns p {
+    font-size: 1.2em;
 }
 @media (max-width: 768px) {
-    .personal {
+    .container-two-columns {
       flex-wrap: wrap;
     }
 }
-.description {
+.column-one {
     position: relative;
     width: 100%;
     margin-top: 20px;
 }
-.skills {
+.column-two {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -118,7 +121,7 @@ hr {
     text-align: center;
     width: 60px;
 }
-.skills h3 {
+.column-two h3 {
     color: #61b9a1;
 }
 .subtitle h2 {
@@ -131,4 +134,74 @@ hr {
     border-radius: 5px;
     padding: 5px 20px;
     font-size: 14px;
+}
+.container-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.container-projects article {
+    width: 350px;
+    padding: 20px;
+}
+.container-projects article img {
+    width: 100%;
+}
+.tech {
+    display: inline;
+    color: #61b9a1;
+    font-size: .8em;
+}
+.website a {
+    float: right;
+    margin: 0 20px;
+    font-size: 1.5em;
+    color: #61b9a1;
+}
+.project-description {
+    font-size: 1.1em;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+}
+.contact-form span {
+    color: #61b9a1;
+}
+.contact-form label {
+    margin-bottom: 5px;
+}
+.contact-form input, textarea {
+    margin-bottom: 20px;
+    background-color:#f8f8f8;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+.contact-form button {
+    padding: 10px;
+}
+.contact-form textarea:focus, input:focus {
+    outline: 3px solid #61b9a1;
+}
+.column-one span {
+    display: block;
+}
+.column-one span i {
+    color: #61b9a1;
+}
+.soft-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.soft-skills p {
+    padding: 5px 10px;
+    margin: 0;
+    border: 1px solid #61b9a1;
+    border-radius: 5px;
+    font-size: 1em;
 }
